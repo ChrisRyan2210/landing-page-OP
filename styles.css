@@ -88,3 +88,70 @@ a {
     max-width: 200px;
     flex-wrap: wrap;
 }
+
+.qouteSection {
+    background-color: #E5E7EB;
+    padding-bottom: 10px;
+  
+}
+
+.qouteDiv {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.qoute {
+    font-size: 24px;
+    color: #1F2937;
+    font-style: italic;
+    padding-top:20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.person {
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
+}
+
+.callToAction {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaDiv {
+    background-color: #3882F6;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctaL{
+    margin-left: 15%;
+}
+
+.ctaR {
+    margin-right: 15%;
+}
+
+.ctaDiv .signUpBtn {
+    border-color: white;
+}
+
+.ctaL h4, .ctaL p{
+    font-weight: bold;
+    
+}
+
+.ctal h4{
+    margin-bottom: 0;
+}
