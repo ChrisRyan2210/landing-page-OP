@@ -4,6 +4,7 @@ body {
 
 .heroSection {
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 ul {
@@ -21,6 +22,7 @@ ul li {
     justify-content: space-between;
     margin-left: 12%;
     margin-right: 12%;
+    margin-bottom: 80px;
 }
 
 a {
@@ -31,4 +33,58 @@ a {
 .header h2 {
     font-size: 24px;
     color:#F9FAF8;
+}
+.hero h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.signUpBtn {
+    width: 120px;
+    height: 40px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.infoHeader {
+    text-align: center;
+}
+
+.infoSection {
+    display: flex;
+    justify-content: center;
+    gap:52px;
+    margin-bottom: 70px;
+}
+
+.info {
+    max-width: 200px;
+    flex-wrap: wrap;
 }
